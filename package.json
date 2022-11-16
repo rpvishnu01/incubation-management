@@ -1,0 +1,28 @@
+{
+  "name": "incubation",
+  "version": "1.0.0",
+  "description": "incubation slots",
+  "main": "server.js",
+  "scripts": {
+    "type": "module",
+    "start": "node backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm start\" \" npm run client\""
+  },
+  "author": "ns",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.5.1",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "express-router": "^0.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mdb-ui-kit": "^3.10.1",
+    "mdbreact": "^5.2.0",
+    "mongoose": "^6.1.2",
+    "nodemon": "^2.0.15",
+    "react-router": "^6.2.1"
+  }
+}

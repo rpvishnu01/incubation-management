@@ -1,0 +1,8 @@
+.view{
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.view:hover{
+    color: lightseagreen;
+}
